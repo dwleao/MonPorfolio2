@@ -1,7 +1,9 @@
 <script setup>
-import TopMenu from './components/TopMenu.vue'
+import TopMenu from './components/TopMenu.vue';
 import Card from './components/Card.vue';
 import AboutMe from './components/AboutMe.vue';
+import Experiences from './components/Experiences.vue';
+import Projects from './components/Projects.vue';
 </script>
 
 <template>
@@ -12,9 +14,11 @@ import AboutMe from './components/AboutMe.vue';
   <main>
     <Card/>
   <AboutMe/>
+  <Experiences/>
+  <Projects/>
   </main>
 </template>
 
-<style scoped>
-
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 </style>
