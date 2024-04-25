@@ -1,6 +1,6 @@
 <template>
-    <div class="menu">
-        <span><a href="#">Kevin LEAO</a></span>
+
+<div class="menu">
       <ul>
         <li><a href="#about">À propos de moi</a></li>
         <li><a href="#experiences">Expériences</a></li>
@@ -8,44 +8,45 @@
         <li><a href="#contact">Me Contacter</a></li>
       </ul>
     </div>
-  </template>
-  
-  <script>
-  export default {
-    name: 'Menu'
-  }
-  </script>
-  
-  <style scoped >
-  .menu {
+    
+    <div class="copyright">
+        <span>Copyright © 2024 Kevin LEAO. Tous droits réservés</span>
+    </div>
+
+
+
+
+
+</template>
+
+<style scoped>
+
+.copyright {
+    font-family: "Quicksand", sans-serif;
+    text-align: center;
+    font-size: small;
+}
+
+.menu {
+    margin-top: 150px;
     font-family: "Quicksand", sans-serif;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
   }
 
-  .menu ul {
-  }
-  
   .menu ul li {
     display: inline;
     margin-right: 20px;
     font-weight: bold;
+
   }
-  
+
   .menu ul li a {
     color: black;
     text-decoration: none;
+
   }
 
-  .menu span a {
-    text-decoration: none;
-    color: hsla(160, 100%, 37%, 1);
-    font-size: 28px;
-    font-weight: bold;
-  }
-  
-  .menu ul li a:hover {
-    color: hsla(160, 100%, 37%, 1);
-  }
-  </style>
+
+
+</style>
