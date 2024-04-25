@@ -4,6 +4,8 @@ import Card from './components/Card.vue';
 import AboutMe from './components/AboutMe.vue';
 import Experiences from './components/Experiences.vue';
 import Projects from './components/Projects.vue';
+import Contact from './components/Contact.vue';
+import Footer from './components/Footer.vue';
 </script>
 
 <template>
@@ -16,6 +18,8 @@ import Projects from './components/Projects.vue';
   <AboutMe/>
   <Experiences/>
   <Projects/>
+  <Contact/>
+  <Footer/>
   </main>
 </template>
 

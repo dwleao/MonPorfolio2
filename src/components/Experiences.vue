@@ -1,6 +1,6 @@
 <template>
     <h1>EXPERIENCES</h1>
-    <div class="container" id="experience">
+    <div class="container" id="experiences">
         <div class="left">
             <div class="left-1">
                 <h2>Développement Frontend</h2>
@@ -90,7 +90,7 @@
   h1 {
     font-family: "Quicksand";
     text-align: center;
-    margin-top: 100px;
+    margin-top: 200px;
     margin-bottom: 50px;
   }
 
