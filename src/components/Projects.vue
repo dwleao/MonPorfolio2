@@ -4,19 +4,17 @@
         <div class="Project-1">
             <img src="../assets/Projetc1.png" alt="">
                 <h2>Projet Mon CV</h2>
-                <button>Voir</button>
-
+                <a href="https://github.com/dwleao/MonCVenLigne">Voir</a>
         </div>
         <div class="Project-2">
             <img src="../assets/projet-2.png" alt="">
             <h2>Projet Cahier des Charges</h2>
-            <button>Voir</button>
-        </div>
+            <a href="https://github.com/dwleao/MonCVenLigne">Voir</a>        </div>
 
         <div class="Project-3">
             <img src="../assets/Projet-3.png" alt="">
             <h2>Projet My Home Space</h2>
-            <button>Voir</button>
+            <a href="https://github.com/dwleao/mon_home_space">Voir</a>
         </div>
     </div>
 </template>
@@ -64,14 +62,16 @@
     text-align: center;
  }
 
-    .container button {
+    .container div a {
+      background-color: hsla(160, 100%, 37%, 1);
     margin-right: 10px;
     padding: 10px 20px;
-    background-color: white;
+    border: none;
     border-radius: 20px;
+    color: white;
     font-size: 16px;
     font-weight: bold;
-    border: solid 1px;
+    text-decoration: none;
     
   }
 

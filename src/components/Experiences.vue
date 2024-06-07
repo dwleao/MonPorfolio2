@@ -7,14 +7,14 @@
             </div>
             <div class="left-2">
                 <ul>
-                    <li><img src="../assets/certificatelogo.png" alt="">HTML</li>
-                    <li><img src="../assets/certificatelogo.png" alt="">CSS</li>
+                    <li class="container"><div class="col"><img src="../assets/certificatelogo.png" alt=""></div>HTML</li>
+                    <li class="container"><div class="col"><img src="../assets/certificatelogo.png" alt=""></div>CSS</li>
                 </ul>
             </div>
             <div class="left-3">
                 <ul>
-                    <li><img src="../assets/certificatelogo.png" alt="">JavaScript</li>
-                    <li><img src="../assets/certificatelogo.png" alt="">VueJS</li>
+                    <li class="container"><div class="col"><img src="../assets/certificatelogo.png" alt=""></div>JavaScript</li>
+                    <li class="container"><div class="col"><img src="../assets/certificatelogo.png" alt=""></div>VueJS</li>
                 </ul>
             </div>
 
@@ -22,7 +22,7 @@
         <div class="right">
             <h2>Développement Backend</h2>
             <ul>
-              <li><img src="../assets/certificatelogo.png" alt="">GitHub</li>
+              <li class="container"><div class="col"><img src="../assets/certificatelogo.png" alt=""></div>GitHub</li>
             </ul>
         </div>
     </div>
@@ -103,7 +103,16 @@
     text-align: center;
     width: 500px;
   }
+ 
+  ul li div {
+    padding-bottom: 2px;
+  }
 
+
+
+  .competences {
+    padding-top: 2px;
+  }
   </style>
 
 

@@ -3,7 +3,7 @@
     <div class="container" id="about">
       <div class="left">
         <!-- Photo de vous -->
-        <img src="../assets/portraitAbout.jpg" alt="Votre photo" class="photo">
+        <a href="../src/assets/portraitAbout.jpg" target="_blank"><img src="../assets/portraitAbout.jpg" alt="Votre photo" class="photo"></a>
       </div>
       <div class="right">
         <div class="sections">

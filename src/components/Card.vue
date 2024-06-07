@@ -1,14 +1,14 @@
 <template>
     <div class="container">
       <div class="left">
-        <img src="../assets/portraitCard.jpg" alt="Votre photo" class="photo">
+        <a href="../src/assets/portraitCard.jpg" target="_blank"><img src="../assets/portraitCard.jpg" alt="Votre photo" class="photo"></a>
       </div>
       <div class="right">
         <h1>Kevin LEAO</h1>
         <h2>Développeur Web</h2>
         <div class="buttons">
          <button class="CV">Mon CV</button>
-        <a href="mailto:kevinleaopro@gmail.com" target="_blank"><button class="contact">Contact</button></a>
+        <a href="mailto:kevinleaopro@gmail.com" target="_blank" class="contact">Contact</a>
         </div>
         <div class="medias">
             <a href="https://www.linkedin.com/in/kevin-leao-10a6161aa/" target="_blank"><img src="../assets/linkedinLogo.png" alt=""></a>
@@ -77,6 +77,7 @@
     border-radius: 20px;
     font-size: 16px;
     font-weight: bold;
+    text-decoration: none;
   }
 
   .medias {
